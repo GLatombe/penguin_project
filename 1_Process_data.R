@@ -16,3 +16,5 @@ write_tsv(penguins_female, "results/1_penguin_female_only.txt")
 
 ##comment for change
 ##second comment for change
+
+lm(bill_length_mm~body_mass_g,data=penguin.dat)
